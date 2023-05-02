@@ -1,0 +1,125 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 10px 10px;
+    align-items: center;
+    text-align: center;
+    color: grey;
+    
+
+}
+.text{
+   margin-top: -50%;
+   margin-left: 5%;
+   font-size: 60px;
+   color: azure;
+    
+}
+#photo{
+   width: 100%; 
+   height: 10%;
+}
+.discover{
+    border: 10px solid rgb(202, 69, 102);
+    background-color: rgb(202, 69, 102);
+    color: whitesmoke;
+    margin-left: 5%;
+    margin-top: -5%;
+    
+}
+.selection{
+    color: grey;
+    text-align: center;
+    margin-top: 5%;
+}
+.tops{
+    /* display: flex; */
+    justify-content: space-between;
+    padding: 10px 10px;
+    text-align: center;
+    color: grey;
+    font-weight: bolder;
+}
+.dress{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    align-items: center;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+#dress1{
+    width: 70%;
+}
+#dress2{
+    width: 70%;
+}
+#dress3{
+    width: 70%;
+}
+#dress4{
+    width: 70%;
+}
+.view{
+    border: 20px solid palevioletred;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    margin-left: 45%;
+}
+#tenu{
+    width: 70%;
+    margin-left: 5%;
+}
+.paragraph{
+    margin-top: -10%;
+}
+#heels{
+    width: 80%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#haut{
+    width: 80%;
+    margin-left: 105%;
+    margin-top: -35%;
+}
+.shoes{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+#down{
+    width: 100%;
+}
+.shopify{
+    color: gray;
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+.icons{
+
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#sub{
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    border: 10px solid palevioletred;
+}
+.icons{
+    margin-left: 2%;
+    display:flex;
+    padding: 10px 10px;
+}
