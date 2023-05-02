@@ -123,3 +123,70 @@ nav ul li{
     display:flex;
     padding: 10px 10px;
 }
+@media only screen and(max-width:700px) {
+    .body{
+    display: grid;
+    grid-template-columns: repeat( 1fr);
+    }
+    nav{
+      display: grid;
+      grid-template-columns: ( 1fr) ;
+      margin-right: 10%;
+    }
+    nav ul li{
+      display: grid;
+      grid-template-columns: repeat(1fr);
+      padding: 10%;
+    }
+    .footer{
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+
+    }
+  
+    
+  }
+ 
+    @media only screen and (max-width: 767px) {
+      .body{
+        display: grid;
+        grid-template-columns: repeat( 1fr);
+        }
+        nav{
+          display: grid;
+          grid-template-columns: ( 1fr) ;
+          margin-right: 10%;
+        }
+        nav ul li{
+          display: grid;
+          grid-template-columns: repeat(1fr);
+          padding: 10%;
+        }
+        .footer{
+          display: grid;
+          grid-template-columns: repeat(1, 1fr);
+    
+    }
+}
+ 
+        @media only screen and (min-width: 768px) and (max-width: 991px) {
+            .body{
+                display: grid;
+                grid-template-columns: repeat( 1fr);
+                }
+                nav{
+                  display: grid;
+                  grid-template-columns: ( 1fr) ;
+                  margin-right: 10%;
+                }
+                nav ul li{
+                  display: grid;
+                  grid-template-columns: repeat(1fr);
+                  padding: 10%;
+                }
+                .footer{
+                  display: grid;
+                  grid-template-columns: repeat(1, 1fr);
+            
+            }
+        }
